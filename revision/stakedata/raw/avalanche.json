@@ -1,0 +1,14 @@
+[
+ {
+  "chain": "avalanche",
+  "date": "2026-11-10",
+  "theta": 0.41135761251025166,
+  "theta_denominator": "P-Chain current supply (platform.getCurrentSupply, incl. C/X-chain)",
+  "r": 0.053322348102400004,
+  "E": 0.021934553808843814,
+  "fee_share": 0.0,
+  "source": "https://api.avax.network/ext/bc/P platform.getCurrentSupply, platform.getCurrentValidators; cross-check glacier-api /v1/networks/mainnet",
+  "retrieved": "2026-11-10",
+  "notes": "r = sum(potentialReward/duration)/sum(validator own stake) over 542 validators (gross, delegator rewards assumed same rate); E approximated r*theta; fees are burned (fee_share=0); glacier total staked=195,757,607"
+ }
+]

@@ -1,0 +1,12 @@
+                 n     info  MDE_24h
+kind                                
+emission_cut     8  139.801    0.237
+mixed            5  170.851    0.214
+oneoff_buyback   2    3.668    1.462
+pause            1  106.941    0.271
+recurring       20  294.474    0.163
+nonzero-dose primary events: 36
+                                              n     info  MDE_24h
+grp                                                              
+emission                                      8  139.801    0.237
+holder-flow (recurring/buyback/pause/mixed)  28  575.934    0.117

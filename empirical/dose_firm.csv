@@ -1,0 +1,8 @@
+event,window,dose,multiplier,basis
+osmo-903,forum posting,-0.0035,1.0,0.5 x OSMO-paid taker fees (2.48M OSMO/yr) / 708.6M circ; no term stated
+osmo-903,vote end,-0.0035,1.0,same
+dydx-313,forum proposal,0.0,0.054,text public 10-28: stakers kept at 40% (paid from treasury) -> no staker cut; 3-month trial
+dydx-313,#304 vote end,-0.02672,0.054,staker leg 25pp x $30M (forum midpoint) = $7.5M / $280.7M; fixed 3-month term
+dydx-313,#313 vote end,-0.01781,1.0,staker leg 25pp x $20M (DRC) = $5.0M / $280.7M; no term stated -> permanent
+simd-0096,PR posting,0.00055,1.0,midpoint of E2 range (not part of the firm-up)
+simd-0096,vote end,0.0031,1.0,midpoint of E2 range (not part of the firm-up)

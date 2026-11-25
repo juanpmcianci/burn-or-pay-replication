@@ -1,0 +1,4 @@
+status: {'ok': 228, 'no price': 166, 'error: The maximum number of mesh nodes is exce': 6}
+logU[0.3,1]: kL/k* [0.92 1.1  1.34 1.96 4.46] within10 0.197 within20 0.355 | kL/kE [1.03 1.19 1.4  1.84 3.05] | eps [-4.18 -1.09 -0.47 -0.06  2.93]
+logU[0.3,5] mixture: priced share 0.62; within 10% among priced 0.495; among all draws 0.307
+   median kL/k* among priced 1.082  p90 2.065

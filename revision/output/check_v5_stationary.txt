@@ -1,0 +1,10 @@
+Check v5, task 5: stationary hurdle under constant-centre feedback mu_A = mu0 + kappa (Theta - theta_bar).
+Closed-form Gordon price W/A = n(Theta) ((1-alpha)/D)^(1/alpha), n = 1-Theta, D = r_f - mu_A + E_net - mu_S - Gamma,
+rho = E + (1-omega) F, E_net = E - omega F, Gamma = rho - c Theta - L(Theta), L = Theta^beta ((1-Theta)u)^(1-beta).
+Numerical hurdle: root in kappa of d log W/dE (central difference, h=1e-6) and of -(1/F) d log W/d omega (h=1e-6).
+Claimed: kappa* = (c + L' - alpha Dbar n'/n) / (1 - alpha (Theta - theta_bar) n'/n), Dbar = D at kappa = 0.
+psi=1.5 rf=0.2 E=0.03 F=0.03 theta_bar=0.35: Theta=0.45000 Dbar=0.19150 | claimed 0.25738506 | root dlogW/dE 0.25738506 | root burn-share gap 0.25738506 | diff 3.29e-14, 1.31e-10
+psi=2.34 rf=0.1 E=0.03 F=0.05 theta_bar=0.45: Theta=0.49026 Dbar=0.06700 | claimed 0.28033017 | root dlogW/dE 0.28033017 | root burn-share gap 0.28033017 | diff -8.28e-11, 7.73e-11
+psi=11.2 rf=0.15 E=0.03 F=0.015 theta_bar=0.5: Theta=0.44280 Dbar=0.12305 | claimed 0.24163147 | root dlogW/dE 0.24163147 | root burn-share gap 0.24163147 | diff -1.34e-10, -5.57e-10
+psi=1.5 rf=0.2 E=0.03 F=0.03 theta_bar=0.45: Theta=0.45000 Dbar=0.19150 | claimed 0.27142424 | root dlogW/dE 0.27142424 | root burn-share gap 0.27142424 | diff 1.24e-12, -1.91e-10
+psi=2.0 rf=0.3 E=0.04 F=0.06 theta_bar=0.3: Theta=0.53832 Dbar=0.27269 | claimed 0.40301712 | root dlogW/dE 0.40301712 | root burn-share gap 0.40301712 | diff 1.32e-10, 3.87e-11

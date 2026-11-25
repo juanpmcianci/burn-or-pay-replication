@@ -1,0 +1,98 @@
+[
+ {
+  "chain": "celo",
+  "date": "2025-04-01",
+  "theta": 0.14593489816423333,
+  "theta_denominator": "total supply (CELO token totalSupply)",
+  "r": 0.01852375,
+  "E": 0.0027032615698697167,
+  "fee_share": null,
+  "source": "https://forno.celo.org eth_call Registry->Election.getTotalVotes, EpochRewards.getTargetVotingYieldParameters, GoldToken.totalSupply @ 31567127",
+  "retrieved": "2026-11-10",
+  "notes": "r = target voting yield per epoch x 365 (protocol target; actual adjusts with rewards multiplier); E = r*theta (approx); token totalSupply is fixed 1B on L2, so theta uses 1B"
+ },
+ {
+  "chain": "celo",
+  "date": "2025-07-01",
+  "theta": 0.1391264127108149,
+  "theta_denominator": "total supply (CELO token totalSupply)",
+  "r": 0.01852375,
+  "E": 0.002577142887451958,
+  "fee_share": null,
+  "source": "https://forno.celo.org eth_call Registry->Election.getTotalVotes, EpochRewards.getTargetVotingYieldParameters, GoldToken.totalSupply @ 39427825",
+  "retrieved": "2026-11-10",
+  "notes": "r = target voting yield per epoch x 365 (protocol target; actual adjusts with rewards multiplier); E = r*theta (approx); token totalSupply is fixed 1B on L2, so theta uses 1B"
+ },
+ {
+  "chain": "celo",
+  "date": "2025-10-01",
+  "theta": 0.1191080396059062,
+  "theta_denominator": "total supply (CELO token totalSupply)",
+  "r": 0.01852375,
+  "E": 0.0022063275486499047,
+  "fee_share": null,
+  "source": "https://forno.celo.org eth_call Registry->Election.getTotalVotes, EpochRewards.getTargetVotingYieldParameters, GoldToken.totalSupply @ 47376516",
+  "retrieved": "2026-11-10",
+  "notes": "r = target voting yield per epoch x 365 (protocol target; actual adjusts with rewards multiplier); E = r*theta (approx); token totalSupply is fixed 1B on L2, so theta uses 1B"
+ },
+ {
+  "chain": "celo",
+  "date": "2026-01-01",
+  "theta": 0.09811609321214082,
+  "theta_denominator": "total supply (CELO token totalSupply)",
+  "r": 0.01852375,
+  "E": 0.0018174779816383935,
+  "fee_share": null,
+  "source": "https://forno.celo.org eth_call Registry->Election.getTotalVotes, EpochRewards.getTargetVotingYieldParameters, GoldToken.totalSupply @ 55325261",
+  "retrieved": "2026-11-10",
+  "notes": "r = target voting yield per epoch x 365 (protocol target; actual adjusts with rewards multiplier); E = r*theta (approx); token totalSupply is fixed 1B on L2, so theta uses 1B"
+ },
+ {
+  "chain": "celo",
+  "date": "2026-04-01",
+  "theta": 0.06948538092691543,
+  "theta_denominator": "total supply (CELO token totalSupply)",
+  "r": 0.01852375,
+  "E": 0.0012871298249449497,
+  "fee_share": null,
+  "source": "https://forno.celo.org eth_call Registry->Election.getTotalVotes, EpochRewards.getTargetVotingYieldParameters, GoldToken.totalSupply @ 63101358",
+  "retrieved": "2026-11-10",
+  "notes": "r = target voting yield per epoch x 365 (protocol target; actual adjusts with rewards multiplier); E = r*theta (approx); token totalSupply is fixed 1B on L2, so theta uses 1B"
+ },
+ {
+  "chain": "celo",
+  "date": "2026-07-01",
+  "theta": 0.06509012441862906,
+  "theta_denominator": "total supply (CELO token totalSupply)",
+  "r": 0.01852375,
+  "E": 0.0012057131921995802,
+  "fee_share": null,
+  "source": "https://forno.celo.org eth_call Registry->Election.getTotalVotes, EpochRewards.getTargetVotingYieldParameters, GoldToken.totalSupply @ 70963719",
+  "retrieved": "2026-11-10",
+  "notes": "r = target voting yield per epoch x 365 (protocol target; actual adjusts with rewards multiplier); E = r*theta (approx); token totalSupply is fixed 1B on L2, so theta uses 1B"
+ },
+ {
+  "chain": "celo",
+  "date": "2026-10-01",
+  "theta": 0.06437644390746308,
+  "theta_denominator": "total supply (CELO token totalSupply)",
+  "r": 0.01852375,
+  "E": 0.0011924931528308693,
+  "fee_share": null,
+  "source": "https://forno.celo.org eth_call Registry->Election.getTotalVotes, EpochRewards.getTargetVotingYieldParameters, GoldToken.totalSupply @ 78912526",
+  "retrieved": "2026-11-10",
+  "notes": "r = target voting yield per epoch x 365 (protocol target; actual adjusts with rewards multiplier); E = r*theta (approx); token totalSupply is fixed 1B on L2, so theta uses 1B"
+ },
+ {
+  "chain": "celo",
+  "date": "2026-11-10",
+  "theta": 0.06079378293709948,
+  "theta_denominator": "total supply (CELO token totalSupply)",
+  "r": 0.01852375,
+  "E": 0.0011261288366810963,
+  "fee_share": null,
+  "source": "https://forno.celo.org eth_call Registry->Election.getTotalVotes, EpochRewards.getTargetVotingYieldParameters, GoldToken.totalSupply @ latest",
+  "retrieved": "2026-11-10",
+  "notes": "r = target voting yield per epoch x 365 (protocol target; actual adjusts with rewards multiplier); E = r*theta (approx); token totalSupply is fixed 1B on L2, so theta uses 1B"
+ }
+]

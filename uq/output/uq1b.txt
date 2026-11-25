@@ -1,0 +1,10 @@
+status
+root                   50
+no root on grid         7
+no price at kappa=0     3
+
+roots 50 of 60; kmax capped at 1.5 in 22 draws
+lifecycle kappa* (roots) 5/50/95%: [0.134 0.294 0.617] | frozen on same draws: [0.147 0.279 0.401]
+difference: median +0.012, mean |diff| 0.071, 95th pct +0.336, max +0.590; Spearman 0.796
+lifecycle kappa*/r (roots) 5/50/95%: [1.44 2.15 3.83] | min k1 - r: 0.018
+no root on grid: 7 (kmax below r in 2 of them)

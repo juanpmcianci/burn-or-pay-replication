@@ -1,0 +1,23 @@
+draws 20000; with a price 19109 (95.5%); dropped (no price) 4.5%
+closed-form check: max |kstar - kstar_cf| = 0.00020872429275814453
+kappa* quantiles 5/25/50/75/95%: [0.148 0.21  0.271 0.335 0.414]
+  share kappa* < 0.05: 0.000
+  share kappa* < 0.1: 0.002
+  share kappa* < 0.2: 0.210
+  share kappa* < 0.3: 0.617
+kappa* - r quantiles 5/50/95%: [0.051 0.114 0.206]
+share with kappa* > r: 1.0
+
+first-order Sobol (binned), 90% bootstrap:
+  rho     0.736  [0.731, 0.741]
+  r_f     0.079  [0.073, 0.085]
+  Theta   0.053  [0.049, 0.060]
+  alpha   0.048  [0.045, 0.053]
+  psi     0.043  [0.038, 0.049]
+  Eshare  0.011  [0.009, 0.015]
+  mu0     0.010  [0.009, 0.014]
+  mu_S    0.007  [0.006, 0.010]
+  c       0.001  [0.001, 0.003]
+  sum 0.988
+P(payout wins) with kappa ~ U(0,0.1): 0.000
+P(payout wins) with kappa ~ U(0,0.3): 0.162

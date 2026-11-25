@@ -1,0 +1,196 @@
+Check v5, task 4: hurdles under CHT's constant-centre feedback mu_A = mu0 + kappa (Theta - theta_bar), theta_bar = 0.45.
+The baseline economy now depends on kappa, so G(kappa) is not affine; the hurdle is the root of G(kappa) = 0 (brentq),
+with both perturbed solves (w_B +- 2e-3, or E +- 2e-4) at the same kappa. Solver: a copy of centred2.solve_c2 with the
+feedback centre as an argument (constant 0.45 here; the baseline path Theta_0(z) reproduces the centred form).
+Boundary: Gordon value at the lower end if D0 > 0, power-law Robin condition if D0 <= 0 < R0 (as centred2).
+ROOTS (kind U = issuance kappa*_E, F = burn share kappa*_omega)
+    psi      rf      x_lo kind    form   kstar  dG_dkappa_at_root        G0
+1.50000 0.20000  -7.00000    U   const 0.32598           35.18520 -19.72100
+1.50000 0.20000  -7.00000    U centred 0.22922                NaN       NaN
+1.50000 0.20000  -7.00000    F   const 0.49723           15.61648 -11.20424
+1.50000 0.20000  -7.00000    F centred 0.27643                NaN       NaN
+1.50000 0.20000  -9.00000    U   const 0.32598           35.18521 -19.72100
+1.50000 0.20000  -9.00000    U centred 0.22922                NaN       NaN
+1.50000 0.20000  -9.00000    F   const 0.49723           15.61652 -11.20424
+1.50000 0.20000  -9.00000    F centred 0.27643                NaN       NaN
+1.50000 0.20000 -12.00000    U   const 0.32598           35.18521 -19.72100
+1.50000 0.20000 -12.00000    U centred 0.22922                NaN       NaN
+1.50000 0.20000 -12.00000    F   const 0.49723           15.61652 -11.20424
+1.50000 0.20000 -12.00000    F centred 0.27643                NaN       NaN
+2.34000 0.20000  -7.00000    U   const 0.32570           27.86221 -13.13289
+2.34000 0.20000  -7.00000    U centred 0.25298                NaN       NaN
+2.34000 0.20000  -7.00000    F   const 0.55794           10.70927  -7.97781
+2.34000 0.20000  -7.00000    F centred 0.34783                NaN       NaN
+2.34000 0.20000  -9.00000    U   const 0.32570           27.86241 -13.13289
+2.34000 0.20000  -9.00000    U centred 0.25298                NaN       NaN
+2.34000 0.20000  -9.00000    F   const 0.55792           10.70973  -7.97776
+2.34000 0.20000  -9.00000    F centred 0.34783                NaN       NaN
+2.34000 0.20000 -12.00000    U   const 0.32570           27.86241 -13.13289
+2.34000 0.20000 -12.00000    U centred 0.25298                NaN       NaN
+2.34000 0.20000 -12.00000    F   const 0.55792           10.70973  -7.97776
+2.34000 0.20000 -12.00000    F centred 0.34783                NaN       NaN
+
+kind                         F       U     F/U   F>U
+psi  rf  form    x_lo                               
+1.50 0.2 centred -12.0 0.27643 0.22922 1.20597  True
+                 -9.0  0.27643 0.22922 1.20597  True
+                 -7.0  0.27643 0.22922 1.20597  True
+         const   -12.0 0.49723 0.32598 1.52534  True
+                 -9.0  0.49723 0.32598 1.52534  True
+                 -7.0  0.49723 0.32598 1.52534  True
+2.34 0.2 centred -12.0 0.34783 0.25298 1.37491  True
+                 -9.0  0.34783 0.25298 1.37491  True
+                 -7.0  0.34783 0.25298 1.37492  True
+         const   -12.0 0.55792 0.32570 1.71302  True
+                 -9.0  0.55792 0.32570 1.71302  True
+                 -7.0  0.55794 0.32570 1.71306  True
+
+SCAN of G(kappa) under constant centre (D0: lower-end Gordon denominator of the kappa baseline)
+x_lo                     -9.0        -7.0
+psi  rf  kind kappa                      
+1.50 0.2 F    0.00  -11.20424   -11.20424
+              0.10   -8.38926    -8.38926
+              0.20   -5.84374    -5.84374
+              0.30   -3.59341    -3.59342
+              0.40   -1.63819    -1.63820
+              0.50    0.04315     0.04314
+              0.60    1.48395     1.48393
+              0.65    2.12570     2.13469
+              0.66    2.25344     9.45256
+              0.67    2.36916     2.36916
+              0.70    2.72104     2.72104
+              0.80    3.78898     3.78898
+              0.90        NaN     4.71747
+              0.95    5.13723     5.13723
+              0.98        NaN     5.37639
+              1.00    5.53086         NaN
+              1.20        NaN     6.88659
+              3.00   12.27998    12.27998
+         U    0.00  -19.72100   -19.72100
+              0.10  -11.61400   -11.61400
+              0.20   -5.47833    -5.47833
+              0.30   -0.95478    -0.95479
+              0.40    2.30454     2.30453
+              0.50    4.62023     4.62023
+              0.60    6.26546     6.26545
+              0.65    6.90573     6.90770
+              0.66    7.02329     8.71826
+              0.67        NaN     7.13491
+              0.70    7.45356     7.45356
+              0.80    8.33809     8.33809
+              0.90    9.02242     9.02242
+              0.95    9.31138     9.31138
+              0.98        NaN     9.47133
+              1.00        NaN     9.57303
+              1.20   10.42453         NaN
+              3.00   13.71171    13.71171
+2.34 0.2 F    0.00   -7.97776    -7.97781
+              0.10   -6.25469    -6.25475
+              0.20   -4.65392    -4.65400
+              0.30   -3.18355    -3.18366
+              0.40   -1.84653    -1.84667
+              0.50   -0.64076    -0.64092
+              0.60    0.44014     0.43996
+              0.65    0.93665     0.93645
+              0.66    1.03260     1.03240
+              0.67    1.12747     1.12726
+              0.70    1.40566     1.40543
+              0.80    2.26707     2.26678
+              0.90    3.03630     3.03776
+              0.95    3.39026     3.52568
+              0.98  -12.09587 -3126.69276
+              1.00    3.72494     3.72494
+              1.05    4.04245     4.04245
+              1.20    4.90228     4.90228
+              1.50    6.29286     6.29286
+              2.00    7.96904         NaN
+         U    0.00  -13.13289   -13.13289
+              0.10   -8.13924    -8.13926
+              0.20   -4.04632    -4.04635
+              0.30   -0.73745    -0.73748
+              0.40    1.90047     1.90043
+              0.50    3.97573     3.97567
+              0.60    5.58964     5.58957
+              0.65    6.25276     6.25268
+              0.66    6.37526     6.37518
+              0.67    6.49457     6.49449
+              0.70    6.83418     6.83409
+              0.80    7.78991     7.78976
+              0.90    8.52485     8.52481
+              0.95    8.82734     8.85608
+              0.98    2.48734 -1148.25629
+              1.00    9.09432     9.09432
+              1.05    9.33100     9.33100
+              1.20    9.90018     9.90018
+              1.50   10.65355    10.65355
+
+failures:
+ psi  rf  x_lo kind  kappa                                           err
+1.50 0.2  -7.0    U   1.05 The maximum number of mesh nodes is exceeded.
+1.50 0.2  -7.0    U   1.20 The maximum number of mesh nodes is exceeded.
+1.50 0.2  -7.0    U   1.50 The maximum number of mesh nodes is exceeded.
+1.50 0.2  -7.0    U   2.00 The maximum number of mesh nodes is exceeded.
+1.50 0.2  -7.0    F   1.00 The maximum number of mesh nodes is exceeded.
+1.50 0.2  -7.0    F   1.05 The maximum number of mesh nodes is exceeded.
+1.50 0.2  -7.0    F   1.50 The maximum number of mesh nodes is exceeded.
+1.50 0.2  -7.0    F   2.00 The maximum number of mesh nodes is exceeded.
+1.50 0.2  -9.0    U   0.67 The maximum number of mesh nodes is exceeded.
+1.50 0.2  -9.0    U   0.98 The maximum number of mesh nodes is exceeded.
+1.50 0.2  -9.0    U   1.00 The maximum number of mesh nodes is exceeded.
+1.50 0.2  -9.0    U   1.05 The maximum number of mesh nodes is exceeded.
+1.50 0.2  -9.0    U   1.50 The maximum number of mesh nodes is exceeded.
+1.50 0.2  -9.0    U   2.00 The maximum number of mesh nodes is exceeded.
+1.50 0.2  -9.0    F   0.90 The maximum number of mesh nodes is exceeded.
+1.50 0.2  -9.0    F   0.98 The maximum number of mesh nodes is exceeded.
+1.50 0.2  -9.0    F   1.05 The maximum number of mesh nodes is exceeded.
+1.50 0.2  -9.0    F   1.20 The maximum number of mesh nodes is exceeded.
+1.50 0.2  -9.0    F   1.50 The maximum number of mesh nodes is exceeded.
+1.50 0.2  -9.0    F   2.00 The maximum number of mesh nodes is exceeded.
+2.34 0.2  -7.0    U   2.00 The maximum number of mesh nodes is exceeded.
+2.34 0.2  -7.0    U   3.00 The maximum number of mesh nodes is exceeded.
+2.34 0.2  -7.0    F   2.00 The maximum number of mesh nodes is exceeded.
+2.34 0.2  -7.0    F   3.00 The maximum number of mesh nodes is exceeded.
+2.34 0.2  -9.0    U   2.00 The maximum number of mesh nodes is exceeded.
+2.34 0.2  -9.0    U   3.00 The maximum number of mesh nodes is exceeded.
+2.34 0.2  -9.0    F   3.00 The maximum number of mesh nodes is exceeded.
+
+D0 by kappa:
+x_lo               -9.0     -7.0
+psi  rf  kappa                  
+1.50 0.2 0.00   0.16232  0.16232
+         0.10   0.13782  0.13782
+         0.20   0.11332  0.11332
+         0.30   0.08882  0.08883
+         0.40   0.06432  0.06433
+         0.50   0.03982  0.03983
+         0.60   0.01532  0.01533
+         0.65   0.00307  0.00308
+         0.66   0.00062  0.00063
+         0.67       NaN -0.00182
+         0.70  -0.00918 -0.00917
+         0.80  -0.03368 -0.03367
+         0.90  -0.05818 -0.05817
+         0.95  -0.07043 -0.07041
+         0.98       NaN -0.07776
+         1.00       NaN -0.08266
+         1.20  -0.13169      NaN
+         3.00  -0.57269 -0.57263
+2.34 0.2 0.00   0.12742  0.12743
+         0.10   0.11443  0.11444
+         0.20   0.10143  0.10144
+         0.30   0.08844  0.08845
+         0.40   0.07545  0.07545
+         0.50   0.06245  0.06246
+         0.60   0.04946  0.04947
+         0.65   0.04296  0.04297
+         0.66   0.04166  0.04167
+         0.67   0.04036  0.04037
+         0.70   0.03646  0.03647
+         0.80   0.02347  0.02348
+         0.90   0.01047  0.01049
+         0.95   0.00397  0.00399
+         0.98   0.00008  0.00009
+         1.00  -0.00252 -0.00251
+         1.20  -0.02851 -0.02850
+         1.05  -0.00902 -0.00901
+         1.50  -0.06750 -0.06748

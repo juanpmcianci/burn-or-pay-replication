@@ -1,0 +1,14 @@
+[
+ {
+  "chain": "injective",
+  "date": "2026-11-10",
+  "theta": 0.4558066620962009,
+  "theta_denominator": "total supply (bank supply inj)",
+  "r": 0.0917055485292962,
+  "E": 0.04179999997083967,
+  "fee_share": null,
+  "source": "https://injective-rest.publicnode.com/cosmos/mint/v1beta1/annual_provisions,inflation; /cosmos/staking/v1beta1/pool",
+  "retrieved": "2026-11-10",
+  "notes": "mint inflation=0.044, community_tax=0.05; exchange fees mostly burned (burn auction); gas fees to stakers ignored"
+ }
+]

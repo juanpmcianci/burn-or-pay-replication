@@ -1,0 +1,15 @@
+status: {'ok': 320, 'no price': 65, 'error: The maximum number of mesh nodes is exceeded.': 15}
+negative slope F: 0 U: 0
+affinity F (40 subset): [25.  1.  1.] U: [1. 1.]
+LR [1.37 1.78 2.19 2.69 3.72]
+ER [1.05 1.34 1.58 1.94 2.86]
+Lss [0.93 1.03 1.14 1.29 1.76]
+Ess [0.68 0.81 0.89 0.95 1.08]
+LE [1.04 1.13 1.28 1.54 1.97]
+share kL > kE: 0.984 | kL > kstar: 0.825 | kE > kstar: 0.109
+kL > r+Gamma/(1-Theta): 1.0 min margin 0.0152 | kE > bound: 0.716 min -0.0816 | kL>r 1.0
+frozen kstar/r on same draws: [1.35 1.54 1.77 2.16 2.78]
+psi<2 95 LR [1.2  1.42 1.57 1.89 2.35] Lss [0.86 0.95 0.99 1.04 1.11]
+psi>=2 225 LR [1.74 2.07 2.39 2.84 3.93] Lss [1.03 1.12 1.23 1.4  1.82]
+spearman kL vs kstar 0.873 | spearman Lss vs psi 0.731 vs Theta -0.081 vs Eshare -0.186
+no-price draws: median psi 5.68 median M 219.0 vs ok M 36.4

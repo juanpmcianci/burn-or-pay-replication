@@ -1,0 +1,23 @@
+    event         window      dose      AR  sigma       t        G       se
+ osmo-903  forum posting dose_high -0.0998 0.0731 -1.3659  12.6322   9.2485
+ osmo-903  forum posting  dose_low -0.0998 0.0731 -1.3659  90.7219  66.4213
+ osmo-903       vote end dose_high  0.0479 0.0731  0.6556 -10.1056  15.4142
+ osmo-903       vote end  dose_low  0.0479 0.0731  0.6556 -72.5766 110.7022
+ dydx-313 forum proposal dose_high  0.0055 0.0589  0.0932  -0.6460   6.9302
+ dydx-313 forum proposal  dose_low  0.0055 0.0589  0.0932  -0.7321   7.8542
+ dydx-313  #304 vote end dose_high  0.0547 0.0589  0.9291 -10.7316  11.5503
+ dydx-313  #304 vote end  dose_low  0.0547 0.0589  0.9291 -12.1625  13.0904
+ dydx-313  #313 vote end dose_high  0.0992 0.0589  1.6832 -58.3263  34.6510
+ dydx-313  #313 vote end  dose_low  0.0992 0.0589  1.6832 -66.1031  39.2711
+simd-0096     PR posting dose_high  0.1890 0.0678  2.7881 540.1283 193.7279
+simd-0096     PR posting  dose_low  0.1890 0.0678  2.7881 945.2245 339.0238
+simd-0096       vote end dose_high  0.0489 0.0678  0.7217  45.3073  62.7822
+simd-0096       vote end  dose_low  0.0489 0.0678  0.7217  62.7332  86.9292
+pooled dose_high: G = -0.3 years, se 4.7, 95% [-9.5, 9.0]
+   dydx-313: G = -4.9, se 5.9, 95% [-16.4, 6.6]
+   osmo-903: G = 6.6, se 7.9, 95% [-8.9, 22.2]
+   simd-0096: G = 92.3, se 59.7, 95% [-24.7, 209.4]
+pooled dose_low: G = -4.1 years, se 6.6, 95% [-17.0, 8.8]
+   dydx-313: G = -5.5, se 6.6, 95% [-18.5, 7.5]
+   osmo-903: G = 47.5, se 57.0, 95% [-64.1, 159.1]
+   simd-0096: G = 117.2, se 84.2, 95% [-47.9, 282.2]

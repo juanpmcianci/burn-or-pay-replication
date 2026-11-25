@@ -1,0 +1,6 @@
+{'spec': 'all with >=4 quarters', 'chains': 10, 'n': 151, 'levels': np.float64(3.583211395981589), 'se': np.float64(1.2785126802541344), 'diffs': np.float64(2.9226364243720693), 'se_d': np.float64(1.0017417502425754)}
+{'spec': 'excl. fantom (Sonic migration)', 'chains': 9, 'n': 129, 'levels': np.float64(2.243925607873171), 'se': np.float64(1.1852933842527136), 'diffs': np.float64(2.527283811646791), 'se_d': np.float64(1.3219844288276084)}
+{'spec': 'excl. fantom, sui (launch)', 'chains': 8, 'n': 120, 'levels': np.float64(2.2199634528259287), 'se': np.float64(1.1898272578946345), 'diffs': np.float64(2.5285049364383156), 'se_d': np.float64(1.3319269479209903)}
+cross-section current: n 20 slope dTheta/drho 3.33 se 1.39
+current theta quantiles [0.06 0.34 0.45 0.56 0.71] r quantiles [0.    0.024 0.037 0.061 0.156] rho q [0.01  0.016 0.037]
+growth on mean theta: chains 19 slope 0.022 se 0.332 95% [-0.63  0.67] | sd theta 0.206 sd growth 0.402

@@ -1,0 +1,10 @@
+2.0 0.06 0.02 -> The maximum number of mesh nodes is exceeded.
+11.2 0.08 0.02 -> no price: lower-end R -0.0223
+11.2 0.1 0.02 -> no price: lower-end R -0.0023
+11.2 0.12 0.02 -> The maximum number of mesh nodes is exceeded.
+11.2 0.06 -0.12 kL 0.659 kE 0.646
+1.5 0.06 -0.12 kL 0.389 kE 0.317
+2.34 0.2 0.02 kL 0.348 kE 0.253
+{'psi': 2.34, 'rf': 0.1, 'kE_formula': np.float64(0.2032), 'intm': np.float64(32.6732), 'kL_formula': np.float64(0.399), 'qmin': np.float64(0.0002), 'kstar_monotone_99': False, 'kL_fd': np.float64(0.3988), 'kE_fd': np.float64(0.2031), 'status': 'ok'}
+{'psi': 2.34, 'rf': 0.2, 'kE_formula': np.float64(0.2531), 'intm': np.float64(17.296), 'kL_formula': np.float64(0.348), 'qmin': np.float64(0.8103), 'kstar_monotone_99': True, 'kL_fd': np.float64(0.3478), 'kE_fd': np.float64(0.253), 'status': 'ok'}
+{'psi': 2.34, 'rf': 0.3, 'kE_formula': np.float64(0.3053), 'intm': np.float64(11.6204), 'kL_formula': np.float64(0.3752), 'qmin': np.float64(0.8951), 'kstar_monotone_99': True, 'kL_fd': np.float64(0.3751), 'kE_fd': np.float64(0.3053), 'status': 'ok'}

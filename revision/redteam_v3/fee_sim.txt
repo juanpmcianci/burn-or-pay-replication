@@ -1,0 +1,11 @@
+{'case': 'A', 'psi': 1.5, 's': 0.25, 'eps_lifecycle': np.float64(-1.8900705719361328), 'q_ref': np.float64(1.0380365895326094), 'median_beta_hat': np.float64(0.2157464617884895), 'p05': np.float64(-0.11958542971765766), 'p95': np.float64(0.5600078133760023), 'share_lower95_ge_027': np.float64(0.05333333333333334), 'share_beta_ge_094': np.float64(0.0)}
+{'case': 'A', 'psi': 1.5, 's': 0.75, 'eps_lifecycle': np.float64(0.02755625289610275), 'q_ref': np.float64(1.0283370795907132), 'median_beta_hat': np.float64(0.6836347838433711), 'p05': np.float64(0.5872303635069264), 'p95': np.float64(0.7814927606514476), 'share_lower95_ge_027': np.float64(1.0), 'share_beta_ge_094': np.float64(0.0)}
+{'case': 'B', 'psi': 11.2, 's': 0.25, 'eps_lifecycle': np.float64(-7.359772483873087), 'q_ref': np.float64(0.35886132138029936), 'median_beta_hat': np.float64(0.584096377759848), 'p05': np.float64(0.23921940815642184), 'p95': np.float64(0.9317827905177142), 'share_lower95_ge_027': np.float64(0.44), 'share_beta_ge_094': np.float64(0.05)}
+{'case': 'B', 'psi': 11.2, 's': 0.4, 'eps_lifecycle': np.float64(-2.804141199453928), 'q_ref': np.float64(0.49288384882473224), 'median_beta_hat': np.float64(0.6848435013185905), 'p05': np.float64(0.46502096386491204), 'p95': np.float64(0.9008558973511516), 'share_lower95_ge_027': np.float64(0.8633333333333333), 'share_beta_ge_094': np.float64(0.03)}
+{'case': 'B', 'psi': 11.2, 's': 0.75, 'eps_lifecycle': np.float64(-0.47739511611073704), 'q_ref': np.float64(0.6768669748926648), 'median_beta_hat': np.float64(0.780495761810134), 'p05': np.float64(0.6642883239912755), 'p95': np.float64(0.896354918330129), 'share_lower95_ge_027': np.float64(1.0), 'share_beta_ge_094': np.float64(0.01)}
+case  psi    s  eps_lifecycle  q_ref  median_beta_hat    p05   p95  share_lower95_ge_027  share_beta_ge_094
+   A  1.5 0.25         -1.890  1.038            0.216 -0.120 0.560                 0.053               0.00
+   A  1.5 0.75          0.028  1.028            0.684  0.587 0.781                 1.000               0.00
+   B 11.2 0.25         -7.360  0.359            0.584  0.239 0.932                 0.440               0.05
+   B 11.2 0.40         -2.804  0.493            0.685  0.465 0.901                 0.863               0.03
+   B 11.2 0.75         -0.477  0.677            0.780  0.664 0.896                 1.000               0.01

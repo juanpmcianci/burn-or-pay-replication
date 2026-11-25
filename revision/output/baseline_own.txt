@@ -1,0 +1,7 @@
+Theta' 2.2 -> psi 2.432
+Theta' 2.5 -> psi 2.189
+baseline psi 2.34 Theta' 2.305
+rf 0.1: G0E -22.4 G0 -14.1 sE 110 sL 35 kstar 0.234 kE 0.203 kL 0.399 ratio 1.71
+rf 0.2: G0E -13.1 G0 -8.0 sE 52 sL 23 kstar 0.288 kE 0.253 kL 0.348 ratio 1.21
+rf 0.3: G0E -10.2 G0 -6.6 sE 33 sL 18 kstar 0.343 kE 0.305 kL 0.375 ratio 1.09
+data priors: n ok 198215 kstar/r q05/50/95 [1.59 2.53 4.57] | kstar q05/50/95 [0.059 0.108 0.182]

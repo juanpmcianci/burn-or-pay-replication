@@ -1,0 +1,13 @@
+status
+root                                                    49
+none                                                     6
+no price at kappa=0                                      3
+error: The maximum number of mesh nodes is exceeded.     2
+
+roots: 49 of 60
+level-1 kappa* quantiles 5/50/95%: [0.134 0.294 0.605]
+level-0 kappa* on same draws 5/50/95%: [0.146 0.279 0.402]
+median (level1 - level0): 0.011  Spearman: 0.836
+agreement on 'kappa* < 0.1' (draws with a verdict): 0.982  (n=55)
+agreement on 'kappa* < 0.2' (draws with a verdict): 0.891  (n=55)
+agreement on 'kappa* < 0.3' (draws with a verdict): 0.873  (n=55)

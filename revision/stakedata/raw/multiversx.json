@@ -1,0 +1,14 @@
+[
+ {
+  "chain": "multiversx",
+  "date": "2026-11-10",
+  "theta": 0.4471410933680513,
+  "theta_denominator": "circulating supply (API economics)",
+  "r": 0.091079,
+  "E": null,
+  "fee_share": null,
+  "source": "https://api.multiversx.com/economics",
+  "retrieved": "2026-11-10",
+  "notes": "apr=0.091079 (avg incl. top-up), baseApr=0.109, topUpApr=0.066634; E not exposed by API"
+ }
+]

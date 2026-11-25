@@ -1,0 +1,12 @@
+capture 0.554: pooled 4h MDE = 18.06 years -> STOP  <- decisive
+    event         window token     dose  multiplier  eff_dose  dpi  mde_window
+ osmo-903  forum posting  OSMO -0.00350       1.000   0.00350  0.5    27.72563
+ osmo-903       vote end  OSMO -0.00350       1.000   0.00350  0.3    46.20939
+ dydx-313 forum proposal  DYDX  0.00000       0.054   0.00000  0.5         inf
+ dydx-313  #304 vote end  DYDX -0.02672       0.054   0.00144  0.3   124.93398
+ dydx-313  #313 vote end  DYDX -0.01781       1.000   0.01781  0.1    30.36464
+simd-0096     PR posting   SOL  0.00055       1.000   0.00055  0.5   290.38398
+simd-0096       vote end   SOL  0.00310       1.000   0.00310  0.3    85.86623
+by event: {'dydx-313': np.float64(29.51), 'osmo-903': np.float64(23.77), 'simd-0096': np.float64(82.34)}
+capture 0.62: pooled 4h MDE = 16.14 years -> STOP
+capture 0.89: pooled 4h MDE = 11.24 years -> STOP

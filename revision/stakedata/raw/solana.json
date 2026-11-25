@@ -1,0 +1,14 @@
+[
+ {
+  "chain": "solana",
+  "date": "2026-11-10",
+  "theta": 0.6825311022129719,
+  "theta_denominator": "total supply (getSupply.total)",
+  "r": 0.05220901763590777,
+  "E": 0.03563427835249261,
+  "fee_share": null,
+  "source": "https://api.mainnet-beta.solana.com getInflationRate, getSupply, getVoteAccounts (epoch 1082)",
+  "retrieved": "2026-11-10",
+  "notes": "theta vs circulating=0.7358 (staked incl. locked); r = inflation*supply/stake, excludes priority fees and MEV (Jito) tips; fee_share not available from RPC"
+ }
+]

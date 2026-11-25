@@ -1,0 +1,14 @@
+[
+ {
+  "chain": "tron",
+  "date": "2026-11-10",
+  "theta": 0.46158993444991936,
+  "theta_denominator": "total supply (tronscan /api/funds totalTurnOver)",
+  "r": 0.03261261536842836,
+  "E": 0.015053654990153282,
+  "fee_share": 0.0,
+  "source": "https://api.trongrid.io/wallet/listwitnesses, /wallet/getchainparameters; https://apilist.tronscanapi.com/api/funds",
+  "retrieved": "2026-11-10",
+  "notes": "theta = TRX voting for SRs/candidates (votes = staked TRX under Stake 2.0) / supply; block pay 136.0 TRX/3s block; r gross before SR sharing ratio; fees burned; net supply deflationary"
+ }
+]

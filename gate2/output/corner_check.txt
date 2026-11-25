@@ -1,0 +1,2 @@
+40 strict-corner cases; theta_s min 1.0 | max G_s -2.02 | max G_s surplus 4.35 | max G_M -11.73 | max G_h -9.71 | dTheta/drho 3.25 - 7.07
+{'r_f': 0.06, 'psi': 1.1, 'F': 0.02, 'kappa': 0.1, 'mult': 1.5, 'G_M': -13.95, 'G_s': -2.02, 'G_s_endow': -6.28, 'G_s_surplus': 4.25, 'G_h': -9.71}

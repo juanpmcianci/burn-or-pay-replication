@@ -1,0 +1,17 @@
+reading                                                                         c=0.554 | c=0.62 | c=0.89
+firmed (verdict)                                                                18.06 |  16.14 |  11.24
+#313 read as carrying out the 3-month trial                                     22.45 |  20.06 |  13.98
+Osmosis at the doc-implied split (0.87%)                                         9.04 |   8.08 |   5.63
+#313 vote-end news share 0.3                                                     9.23 |   8.25 |   5.74
+#304 vote end read as permanent (DRC 10-30, Nethermind 11-05 public, no term)    6.33 |   5.65 |   3.94
+forum window at 0.054 x #304 dose instead of 0                                  17.56 |  15.69 |  10.93
+renewal prior p=0.5: #304 window                                                10.48 |   9.37 |   6.52
+renewal prior p=0.5: + forum window cut at #304 dose                             6.20 |   5.54 |   3.86
+renewal prior p=0.5: + Osmosis 0.87%                                             5.33 |   4.76 |   3.32
+renewal prior p=0.65: #304 window                                                8.83 |   7.89 |   5.50
+renewal prior p=0.65: + forum window cut at #304 dose                            4.99 |   4.46 |   3.11
+renewal prior p=0.65: + Osmosis 0.87%                                            4.50 |   4.02 |   2.80
+renewal prior p=0.8: #304 window                                                 7.57 |   6.77 |   4.71
+renewal prior p=0.8: + forum window cut at #304 dose                             4.17 |   3.72 |   2.59
+renewal prior p=0.8: + Osmosis 0.87%                                             3.87 |   3.46 |   2.41
+upper bound: every dYdX window permanent, forum at #304 dose (contradicts documents)   3.41 |   3.05 |   2.12

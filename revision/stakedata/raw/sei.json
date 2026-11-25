@@ -1,0 +1,14 @@
+[
+ {
+  "chain": "sei",
+  "date": "2026-11-10",
+  "theta": 0.4410215782794315,
+  "theta_denominator": "total supply (bank supply usei)",
+  "r": 0.040468993228401,
+  "E": 0.017847699264969034,
+  "fee_share": null,
+  "source": "https://sei-rest.publicnode.com/seichain/mint/v1beta1/minter (token_release_schedule), /cosmos/staking/v1beta1/pool",
+  "retrieved": "2026-11-10",
+  "notes": "release period 2026-08-15..2027-08-14 total 165000000 SEI; community_tax=0.0; assumes all scheduled release goes to stakers; fees ignored"
+ }
+]

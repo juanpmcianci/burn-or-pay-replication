@@ -1,0 +1,14 @@
+kappa*/r quantiles 5/25/50/75/95%: [1.32 1.52 1.77 2.11 2.77]
+implied r quantiles 5/50/95%: [0.071 0.148 0.274]  share r>0.15: 0.49
+lemma: min over draws of kstar - r - Gamma/(1-Theta) = -1.7e-04 (numerical error; analytically = alpha*D/(1-Theta) > 0)
+Sobol (ddof=0): {'rho': 0.736, 'r_f': 0.079, 'Theta': 0.053, 'alpha': 0.048, 'psi': 0.043, 'Eshare': 0.011, 'mu0': 0.01, 'mu_S': 0.007, 'c': 0.001}  sum 0.988
+
+protocol-like states (Theta, r fixed; other parameters from the plan's priors):
+  ETH-like  Theta=0.28 r=0.03: kappa* median 0.070 (90% 0.043-0.120), kappa*/r 2.34, growth-equivalent per +10pp stake 0.7 pp/yr; priced 99%
+  AVAX-like Theta=0.5 r=0.07: kappa* median 0.159 (90% 0.115-0.231), kappa*/r 2.27, growth-equivalent per +10pp stake 1.6 pp/yr; priced 98%
+  SOL-like  Theta=0.6 r=0.07: kappa* median 0.191 (90% 0.133-0.280), kappa*/r 2.73, growth-equivalent per +10pp stake 1.9 pp/yr; priced 98%
+  ATOM-like Theta=0.6 r=0.15: kappa* median 0.352 (90% 0.253-0.441), kappa*/r 2.34, growth-equivalent per +10pp stake 3.5 pp/yr; priced 93%
+
+prior on r ~ U(0.03,0.15): kappa* median 0.177 (90% 0.082-0.300); kappa*/r median 1.99 (90% 1.40-3.40)
+  P(payout wins), kappa ~ U(0,0.1): 0.021
+  P(payout wins), kappa ~ U(0,0.3): 0.402

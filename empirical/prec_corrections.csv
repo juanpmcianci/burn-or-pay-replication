@@ -1,0 +1,8 @@
+num,V_corrected,kind_corrected,reason
+34,0.0,pause,buybacks continue; rewards deferred to treasury; switch rule gives 0 (fact check)
+35,0.096,recurring,only revenue after GT buybacks: ~8.3% residual of 90-day revenue $23.3M; R ~ $1.9M (fact check)
+59,-0.25,emission_cut,SNIP-18 minting capped by staked share of total supply (<=14.6%); cap unreachable (fact check)
+48,-0.166,mixed,prior buyback share ~75% (DefiLlama holdersRevenue); change -$109M/yr for 1 year (fact check)
+14,0.355,emission_cut,post asks for 2 more seasons: 2-year life (fact check); retagged emission_cut
+21,,emission_cut,retag only (CAKE emissions end)
+16,1.64,emission_cut,no stated term ('foreseeable future'; 'indefinitely'): permanent by rule (fact check)

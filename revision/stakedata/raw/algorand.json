@@ -1,0 +1,14 @@
+[
+ {
+  "chain": "algorand",
+  "date": "2026-11-10",
+  "theta": 0.20299500302066978,
+  "theta_denominator": "total money (algod ledger/supply)",
+  "r": null,
+  "E": null,
+  "fee_share": null,
+  "source": "https://mainnet-api.algonode.cloud/v2/ledger/supply",
+  "retrieved": "2026-11-10",
+  "notes": "theta = online (consensus-participating) stake, not locked; staking rewards since 2025 are proposer payouts (fees + fee-sink bonus) to incentive-eligible accounts only; no free API for r"
+ }
+]

@@ -1,0 +1,14 @@
+[
+ {
+  "chain": "cosmos-hub",
+  "date": "2026-11-10",
+  "theta": 0.6301617751333397,
+  "theta_denominator": "total supply (bank supply uatom)",
+  "r": 0.15551561776586223,
+  "E": 0.09799999775229369,
+  "fee_share": null,
+  "source": "https://cosmos-rest.publicnode.com/cosmos/staking/v1beta1/pool, /cosmos/mint/v1beta1/annual_provisions, /cosmos/distribution/v1beta1/params",
+  "retrieved": "2026-11-10",
+  "notes": "mint inflation=0.1, community_tax=0.02; fees ignored (small)"
+ }
+]

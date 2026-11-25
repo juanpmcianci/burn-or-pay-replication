@@ -1,0 +1,14 @@
+[
+ {
+  "chain": "hedera",
+  "date": "2026-11-10",
+  "theta": 0.3007608803399305,
+  "theta_denominator": "released (circulating) supply, mirror node network/supply",
+  "r": 0.0184617,
+  "E": null,
+  "fee_share": null,
+  "source": "https://mainnet-public.mirrornode.hedera.com/api/v1/network/stake, https://mainnet-public.mirrornode.hedera.com/api/v1/network/supply",
+  "retrieved": "2026-11-10",
+  "notes": "r = max_staking_reward_rate_per_hbar*365 (rate for reward-eligible stake); daily reward budget 445166 HBAR (~162M/yr = 0.0037 of released supply) paid from account 0.0.800 (fees + treasury), no new minting; stake_total includes stake that declines rewards"
+ }
+]

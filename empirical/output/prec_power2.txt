@@ -1,0 +1,17 @@
+primary 24h: as coded 0.105 -> rule-corrected 0.106
+Kish N_eff 2.8 of 45; share by token: {'JUPUSDT': 0.619, 'MKRUSDT': 0.175, 'PUMPUSDT': 0.064, 'TIAUSDT': 0.061}
+  holder flow  n=25  MDE 0.199
+  emission     n=10  MDE 0.125
+C4 sensitivities (on corrected doses):
+  Sky #26 realised rate (borderline row)             n/a (not in the primary sample)
+  GMX #32 gross (0.62)                               0.097
+  GMX #33 gross (0.92)                               0.090
+  JUP #16 one-year life (0.33)                       0.157
+  Pump #48 permanent                                 0.066
+  Frax #42 at DefiLlama revenue (0.02)               0.106
+  STRK #59 at realistic share (-0.21 x 0.25/0.654)   0.106
+  GMX #34 as a pause re-dated (-0.596)               0.097
+  GMX #35 at current-regime residual (0.26)          0.102
+  doses x0.5  0.211
+  doses x1.5  0.070
+  drop top token (JUPUSDT): 0.171; drop top 2 tokens: 0.233; drop top 4 events: 0.272

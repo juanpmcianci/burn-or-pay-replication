@@ -1,0 +1,6 @@
+status at -12: {'ok': 39, 'no price': 9}
+lower boundary -7: n=39 median kL/k* 0.987, within 10% 0.90, p90 1.089
+lower boundary -12: n=39 median kL/k* 0.985, within 10% 0.90, p90 1.088
+max |kF_12 - kF_7|: 0.0783  median rel change: -0.0
+lose price at -12: n 9 median psi 8.58488437386772 ; their kL/k* at -7: median 1.15455897060403
+within 10% at -7 among all 48: 0.75 ; counting price-loss at -12 as not within: 0.73

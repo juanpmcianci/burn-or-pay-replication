@@ -1,0 +1,21 @@
+e2p_events.csv events 50 qual 12 median c 0.554 [0.229 0.889] c* 0.622 [0.276 1.387] -> CONDITIONAL
+  median leak share pre24/total (qualifying): 0.166
+  c* leave-one-out range 0.464 1.03
+e2p_events_all.csv events 66 qual 14 median c 0.554 [0.186 0.812] c* 0.649 [0.315 1.474] -> CONDITIONAL
+  median leak share pre24/total (qualifying): 0.166
+  c* leave-one-out range 0.514 1.058
+           event  pre24   car4  total      c
+         08-Aave  0.017  0.095  0.122  0.777
+         09-Aave -0.014  0.116  0.119  0.978
+  20-PancakeSwap  0.027  0.131  0.124  1.055
+         44-Frax -0.004 -0.004 -0.118  0.036
+          32-GMX  0.007  0.065  0.101  0.645
+40-Gains Network -0.080 -0.023 -0.100  0.229
+    47-Injective -0.076  0.005 -0.076 -0.066
+         30-Lido  0.004  0.049  0.107  0.463
+    65-Chainlink  0.009  0.027  0.093  0.290
+    23-Sky/Maker -0.032 -0.011 -0.112  0.101
+    26-Sky/Maker  0.056  0.121  0.182  0.666
+      01-Uniswap -0.015  0.434  0.488  0.889
+      02-Uniswap  0.054  0.262  0.274  0.958
+       61-ZKsync  0.141  0.081  0.566  0.143

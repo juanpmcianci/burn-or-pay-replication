@@ -1,0 +1,45 @@
+=== Q75: status {'ok': 231, 'no price': 166, 'error: The maximum number of mesh nodes is exceeded.': 3}
+ slopes<=0 F,U: 0 0 | max |p2-fd| F,U: 0.00412 0.00417 | qmin<0: 50
+  LR      [1.39 1.86 2.54 3.5  5.51]
+  Lss     [0.94 1.08 1.26 1.71 2.62]
+  Ess     [0.75 0.85 0.93 1.   1.8 ]
+  LE      [1.04 1.18 1.35 1.7  2.34]
+  eps     [-0.82 -0.29 -0.11 -0.01  0.18]
+  s       [0.75 0.75 0.75 0.75 0.75]
+  sigma_A [0.35 0.35 0.35 0.35 0.35]
+  share kL>kE 0.97 | kL>kstar 0.874 | |Lss-1|<0.1 0.255 | |Lss-1|<0.2 0.416
+  kL > r+G/(1-Th): 1.0 min margin 0.0312 | kE > bound 0.905
+  psi<2 n=98 Lss [0.88 0.99 1.07 1.19 1.64] LE [1.04 1.12 1.21 1.39 1.9 ]
+  psi>=2 n=133 Lss [1.1  1.26 1.53 2.08 3.01] LE [1.03 1.28 1.51 1.81 2.81]
+  no price: median psi 5.44 M 78.7 | ok: psi 2.39 M 30.5
+  no-price share by psi bin: {Interval(1.0, 1.5, closed='right'): 0.05, Interval(1.5, 2.0, closed='right'): 0.12, Interval(2.0, 3.0, closed='right'): 0.28, Interval(3.0, 5.0, closed='right'): 0.58, Interval(5.0, 20.0, closed='right'): 0.62}
+  common draws with midpoint run: 220; median L/E quarter 1.35 vs midpoint 1.21; median L/ss quarter 1.26 vs midpoint 1.07
+=== QD: status {'ok': 263, 'no price': 137}
+ slopes<=0 F,U: 0 0 | max |p2-fd| F,U: 0.00367 0.00139 | qmin<0: 68
+  LR      [1.3  1.59 1.89 2.47 3.46]
+  Lss     [0.9  0.97 1.02 1.12 1.62]
+  Ess     [0.8  0.89 0.95 1.   1.14]
+  LE      [1.01 1.03 1.08 1.17 1.54]
+  eps     [0.25 0.47 0.67 0.79 0.83]
+  s       [1.08 1.59 2.47 3.86 4.73]
+  sigma_A [0.18 0.24 0.31 0.4  0.48]
+  share kL>kE 0.992 | kL>kstar 0.62 | |Lss-1|<0.1 0.688 | |Lss-1|<0.2 0.844
+  kL > r+G/(1-Th): 1.0 min margin 0.0066 | kE > bound 0.928
+  psi<2 n=103 Lss [0.88 0.95 0.97 1.   1.09] LE [1.01 1.02 1.06 1.1  1.3 ]
+  psi>=2 n=160 Lss [0.96 1.01 1.08 1.19 1.88] LE [1.01 1.04 1.11 1.23 1.61]
+  eps in [-9,0) n=3 Lss [1.94 2.15 2.41 2.48 2.54] LE [1.42 1.56 1.74 1.93 2.08]
+  eps in [0,0.27) n=13 Lss [1.02 1.13 1.29 1.52 2.19] LE [1.19 1.21 1.26 1.61 2.08]
+  eps in [0.27,0.5) n=56 Lss [0.92 1.01 1.1  1.24 1.68] LE [1.05 1.11 1.19 1.3  1.65]
+  eps in [0.5,1) n=190 Lss [0.9  0.97 1.   1.06 1.26] LE [1.01 1.02 1.05 1.11 1.3 ]
+  no price: median psi 5.68 M 91.1 | ok: psi 2.65 M 31.6
+  no-price share by psi bin: {Interval(1.0, 1.5, closed='right'): 0.03, Interval(1.5, 2.0, closed='right'): 0.09, Interval(2.0, 3.0, closed='right'): 0.24, Interval(3.0, 5.0, closed='right'): 0.45, Interval(5.0, 20.0, closed='right'): 0.53}
+  common draws with midpoint run: 250; median L/E quarter 1.08 vs midpoint 1.24; median L/ss quarter 1.02 vs midpoint 1.08
+spearman Lss vs psi 0.642
+spearman Lss vs eps -0.441
+spearman Lss vs s -0.28
+spearman Lss vs sigma_A -0.048
+spearman Lss vs Theta -0.183
+spearman Lss vs r_f 0.094
+spearman Lss vs alpha -0.132
+spearman Lss vs rho 0.153
+spearman Lss vs Eshare 0.119

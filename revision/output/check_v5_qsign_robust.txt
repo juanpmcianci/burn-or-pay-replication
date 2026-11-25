@@ -1,0 +1,25 @@
+Check v5, task 3 addendum: robustness of q near z=-7 to solver nodes/tolerance and boundary handling (solve_c vs solve_c2).
+psi=2.34 rf=0.1 solve_c n=401 tol=1e-08: qmin=0.000179 at z=-7.000; q<0 on nowhere; q(-6.86)=0.04668
+psi=2.34 rf=0.1 solve_c n=801 tol=1e-08: qmin=0.000179 at z=-7.000; q<0 on nowhere; q(-6.86)=0.04668
+psi=2.34 rf=0.1 solve_c n=1601 tol=1e-08: qmin=0.000179 at z=-7.000; q<0 on nowhere; q(-6.86)=0.04668
+psi=2.34 rf=0.1 solve_c n=3201 tol=1e-08: qmin=0.000179 at z=-7.000; q<0 on nowhere; q(-6.86)=0.04668
+psi=2.34 rf=0.1 solve_c n=801 tol=1e-09: qmin=0.000179 at z=-7.000; q<0 on nowhere; q(-6.86)=0.04668
+psi=2.34 rf=0.1 solve_c n=801 tol=1e-06: qmin=0.000179 at z=-7.000; q<0 on nowhere; q(-6.86)=0.04668
+psi=2.34 rf=0.1 solve_c2 n=401 tol=1e-08: qmin=0.000179 at z=-7.000; q<0 on nowhere; q(-6.86)=0.04668
+psi=2.34 rf=0.1 solve_c2 n=801 tol=1e-08: qmin=0.000179 at z=-7.000; q<0 on nowhere; q(-6.86)=0.04668
+psi=2.34 rf=0.1 solve_c2 n=1601 tol=1e-08: qmin=0.000179 at z=-7.000; q<0 on nowhere; q(-6.86)=0.04668
+psi=2.34 rf=0.1 solve_c2 n=3201 tol=1e-08: qmin=0.000179 at z=-7.000; q<0 on nowhere; q(-6.86)=0.04668
+psi=2.34 rf=0.1 solve_c2 n=801 tol=1e-09: qmin=0.000179 at z=-7.000; q<0 on nowhere; q(-6.86)=0.04668
+psi=2.34 rf=0.1 solve_c2 n=801 tol=1e-06: qmin=0.000179 at z=-7.000; q<0 on nowhere; q(-6.86)=0.04668
+psi=11.2 rf=0.15 solve_c n=401 tol=1e-08: qmin=-0.060617 at z=-7.000; q<0 on [-7.0000, -6.7910]; q(-6.86)=-0.02039
+psi=11.2 rf=0.15 solve_c n=801 tol=1e-08: qmin=-0.060617 at z=-7.000; q<0 on [-7.0000, -6.7910]; q(-6.86)=-0.02039
+psi=11.2 rf=0.15 solve_c n=1601 tol=1e-08: qmin=-0.060617 at z=-7.000; q<0 on [-7.0000, -6.7910]; q(-6.86)=-0.02039
+psi=11.2 rf=0.15 solve_c n=3201 tol=1e-08: qmin=-0.060617 at z=-7.000; q<0 on [-7.0000, -6.7910]; q(-6.86)=-0.02039
+psi=11.2 rf=0.15 solve_c n=801 tol=1e-09: qmin=-0.060617 at z=-7.000; q<0 on [-7.0000, -6.7910]; q(-6.86)=-0.02039
+psi=11.2 rf=0.15 solve_c n=801 tol=1e-06: qmin=-0.060617 at z=-7.000; q<0 on [-7.0000, -6.7910]; q(-6.86)=-0.02039
+psi=11.2 rf=0.15 solve_c2 n=401 tol=1e-08: qmin=-0.060617 at z=-7.000; q<0 on [-7.0000, -6.7910]; q(-6.86)=-0.02039
+psi=11.2 rf=0.15 solve_c2 n=801 tol=1e-08: qmin=-0.060617 at z=-7.000; q<0 on [-7.0000, -6.7910]; q(-6.86)=-0.02039
+psi=11.2 rf=0.15 solve_c2 n=1601 tol=1e-08: qmin=-0.060617 at z=-7.000; q<0 on [-7.0000, -6.7910]; q(-6.86)=-0.02039
+psi=11.2 rf=0.15 solve_c2 n=3201 tol=1e-08: qmin=-0.060617 at z=-7.000; q<0 on [-7.0000, -6.7910]; q(-6.86)=-0.02039
+psi=11.2 rf=0.15 solve_c2 n=801 tol=1e-09: qmin=-0.060617 at z=-7.000; q<0 on [-7.0000, -6.7910]; q(-6.86)=-0.02039
+psi=11.2 rf=0.15 solve_c2 n=801 tol=1e-06: qmin=-0.060617 at z=-7.000; q<0 on [-7.0000, -6.7910]; q(-6.86)=-0.02039

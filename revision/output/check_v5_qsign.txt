@@ -1,0 +1,40 @@
+Check v5, task 3: where q(z) = d log W0/dz < 0 (psi=2.34, r_f=0.10; also calibration B r_f=0.15), and the share of
+nu_E q and nu_omega q there. Uses prop2.pieces / weights (centred.solve_c, Gordon at both ends; D0 > 0 at the lower end
+here, so this is the same boundary condition as centred2). Grid spacing 14/4000 as in prop2; domains [-7,7], [-9,7], [-12,7].
+nu_E = g Theta_rho, nu_omega = nu_E F/F(z0); g = row i0 of the inverse of the discretised operator (prop2.weights).
+                           0        1        2            3         4        5
+psi                     2.34     2.34     2.34         11.2      11.2     11.2
+rf                       0.1      0.1      0.1         0.15      0.15     0.15
+x_lo                      -7       -9      -12           -7        -9      -12
+N                       4001     4572     5430         4001      4572     5430
+qmin             0.000178815 0.108334 0.269469   -0.0606167 0.0437572 0.208398
+z_at_qmin                 -7       -9      -12           -7        -9      -12
+q_ref               0.763164  0.76451 0.764174     0.537079  0.541408 0.540979
+share_E_signed             0        0        0 -4.30062e-07         0        0
+share_E_abs                0        0        0  4.30062e-07         0        0
+nu_E_mass_share            0        0        0  1.54356e-05         0        0
+share_om_signed            0        0        0 -3.73825e-06         0        0
+share_om_abs               0        0        0  3.73822e-06         0        0
+nu_om_mass_share           0        0        0  8.73189e-05         0        0
+neg_lo                   NaN      NaN      NaN           -7       NaN      NaN
+neg_hi                   NaN      NaN      NaN      -6.7935       NaN      NaN
+n_neg_nodes              NaN      NaN      NaN           60       NaN      NaN
+contiguous               NaN      NaN      NaN         True       NaN      NaN
+
+psi=2.34 rf=0.10 [-7,7]: q on z in [-7,-6] (every 20th node)
+        z        q
+-7.000000 0.000179
+-6.930000 0.023245
+-6.860000 0.046676
+-6.790000 0.070412
+-6.720000 0.094388
+-6.650000 0.118535
+-6.580000 0.142782
+-6.510000 0.167055
+-6.440000 0.191277
+-6.370000 0.215374
+-6.300000 0.239268
+-6.230000 0.262886
+-6.160000 0.286155
+-6.090000 0.309007
+-6.020000 0.331375

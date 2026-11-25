@@ -1,0 +1,33 @@
+Central case, dose_high (3-day windows, BTC market model):
+    event         window token   sigma    beta  n    dose  dpi       mde
+ osmo-903  forum posting  OSMO 0.07306 1.32476 60 -0.0158  0.5  25.89591
+ osmo-903       vote end  OSMO 0.07306 1.32476 60 -0.0158  0.3  43.15986
+ dydx-313 forum proposal  DYDX 0.05891 2.00995 60 -0.0170  0.5  19.40457
+ dydx-313  #304 vote end  DYDX 0.05891 2.00995 60 -0.0170  0.3  32.34095
+ dydx-313  #313 vote end  DYDX 0.05891 2.00995 60 -0.0170  0.1  97.02284
+simd-0096     PR posting   SOL 0.06780 1.53848 60  0.0007  0.5 542.43801
+simd-0096       vote end   SOL 0.06780 1.53848 60  0.0036  0.3 175.79010
+Pooled MDE = 13.15 years -> FAIL
+
+Pooled MDE by event: {'dydx-313': np.float64(16.4), 'osmo-903': np.float64(22.21), 'simd-0096': np.float64(167.23)} 
+
+Central case, dose_low (3-day windows, BTC market model):
+    event         window token   sigma    beta  n    dose  dpi       mde
+ osmo-903  forum posting  OSMO 0.07306 1.32476 60 -0.0022  0.5 185.97974
+ osmo-903       vote end  OSMO 0.07306 1.32476 60 -0.0022  0.3 309.96624
+ dydx-313 forum proposal  DYDX 0.05891 2.00995 60 -0.0150  0.5  21.99184
+ dydx-313  #304 vote end  DYDX 0.05891 2.00995 60 -0.0150  0.3  36.65307
+ dydx-313  #313 vote end  DYDX 0.05891 2.00995 60 -0.0150  0.1 109.95921
+simd-0096     PR posting   SOL 0.06780 1.53848 60  0.0004  0.5 949.26652
+simd-0096       vote end   SOL 0.06780 1.53848 60  0.0026  0.3 243.40167
+Pooled MDE = 18.41 years -> FAIL
+
+Pooled MDE by event: {'dydx-313': np.float64(18.59), 'osmo-903': np.float64(159.48), 'simd-0096': np.float64(235.77)} 
+
+Sensitivity at dose_high (not used for the verdict):
+  dpi halved     pooled MDE =   26.30 years -> FAIL
+  dpi doubled    pooled MDE =    6.58 years -> FAIL
+  dose -50%      pooled MDE =   26.30 years -> FAIL
+  dose +50%      pooled MDE =    8.77 years -> FAIL
+  5-day windows  pooled MDE =   15.82 years -> FAIL
+  CCi30 market   pooled MDE =    8.13 years -> FAIL

@@ -1,0 +1,110 @@
+[
+ {
+  "chain": "sonic",
+  "date": "2025-01-01",
+  "theta": 0.6341501642081534,
+  "theta_denominator": "total supply (SFC.totalSupply)",
+  "r": 0.08127591072686466,
+  "E": 0.05154113213360844,
+  "fee_share": null,
+  "source": "https://rpc.soniclabs.com eth_call SFC 0xFC00FACE00000000000000000000000000000000 totalStake/totalSupply, ConstantsManager.baseRewardPerSecond @block 2118322",
+  "retrieved": "2026-11-10",
+  "notes": "r = baseRewardPerSecond*yr/totalStake (base reward only, excludes validators' fee share; uptime-weighted in practice)"
+ },
+ {
+  "chain": "sonic",
+  "date": "2025-04-01",
+  "theta": 0.34244614517350125,
+  "theta_denominator": "total supply (SFC.totalSupply)",
+  "r": 0.057243457331536754,
+  "E": 0.01960280129958856,
+  "fee_share": null,
+  "source": "https://rpc.soniclabs.com eth_call SFC 0xFC00FACE00000000000000000000000000000000 totalStake/totalSupply, ConstantsManager.baseRewardPerSecond @block 17351009",
+  "retrieved": "2026-11-10",
+  "notes": "r = baseRewardPerSecond*yr/totalStake (base reward only, excludes validators' fee share; uptime-weighted in practice)"
+ },
+ {
+  "chain": "sonic",
+  "date": "2025-07-01",
+  "theta": 0.33204351417977485,
+  "theta_denominator": "total supply (SFC.totalSupply)",
+  "r": 0.05545136895052369,
+  "E": 0.01841226741241114,
+  "fee_share": null,
+  "source": "https://rpc.soniclabs.com eth_call SFC 0xFC00FACE00000000000000000000000000000000 totalStake/totalSupply, ConstantsManager.baseRewardPerSecond @block 36647857",
+  "retrieved": "2026-11-10",
+  "notes": "r = baseRewardPerSecond*yr/totalStake (base reward only, excludes validators' fee share; uptime-weighted in practice)"
+ },
+ {
+  "chain": "sonic",
+  "date": "2025-10-01",
+  "theta": 0.30567288735295994,
+  "theta_denominator": "total supply (SFC.totalSupply)",
+  "r": 0.04964716278964137,
+  "E": 0.01517579159879211,
+  "fee_share": null,
+  "source": "https://rpc.soniclabs.com eth_call SFC 0xFC00FACE00000000000000000000000000000000 totalStake/totalSupply, ConstantsManager.baseRewardPerSecond @block 48910449",
+  "retrieved": "2026-11-10",
+  "notes": "r = baseRewardPerSecond*yr/totalStake (base reward only, excludes validators' fee share; uptime-weighted in practice)"
+ },
+ {
+  "chain": "sonic",
+  "date": "2026-01-01",
+  "theta": 0.26572198811307646,
+  "theta_denominator": "total supply (SFC.totalSupply)",
+  "r": 0.05669677150165859,
+  "E": 0.015065578843013535,
+  "fee_share": null,
+  "source": "https://rpc.soniclabs.com eth_call SFC 0xFC00FACE00000000000000000000000000000000 totalStake/totalSupply, ConstantsManager.baseRewardPerSecond @block 59335133",
+  "retrieved": "2026-11-10",
+  "notes": "r = baseRewardPerSecond*yr/totalStake (base reward only, excludes validators' fee share; uptime-weighted in practice)"
+ },
+ {
+  "chain": "sonic",
+  "date": "2026-04-01",
+  "theta": 0.26199774793929625,
+  "theta_denominator": "total supply (SFC.totalSupply)",
+  "r": 0.057306847743032574,
+  "E": 0.015014265050174678,
+  "fee_share": null,
+  "source": "https://rpc.soniclabs.com eth_call SFC 0xFC00FACE00000000000000000000000000000000 totalStake/totalSupply, ConstantsManager.baseRewardPerSecond @block 66410980",
+  "retrieved": "2026-11-10",
+  "notes": "r = baseRewardPerSecond*yr/totalStake (base reward only, excludes validators' fee share; uptime-weighted in practice)"
+ },
+ {
+  "chain": "sonic",
+  "date": "2026-07-01",
+  "theta": 0.26690086988417283,
+  "theta_denominator": "total supply (SFC.totalSupply)",
+  "r": 0.05611653596846551,
+  "E": 0.014977552264869916,
+  "fee_share": null,
+  "source": "https://rpc.soniclabs.com eth_call SFC 0xFC00FACE00000000000000000000000000000000 totalStake/totalSupply, ConstantsManager.baseRewardPerSecond @block 75097828",
+  "retrieved": "2026-11-10",
+  "notes": "r = baseRewardPerSecond*yr/totalStake (base reward only, excludes validators' fee share; uptime-weighted in practice)"
+ },
+ {
+  "chain": "sonic",
+  "date": "2026-10-01",
+  "theta": 0.25270580750737076,
+  "theta_denominator": "total supply (SFC.totalSupply)",
+  "r": 0.05907574892573983,
+  "E": 0.014928784836381775,
+  "fee_share": null,
+  "source": "https://rpc.soniclabs.com eth_call SFC 0xFC00FACE00000000000000000000000000000000 totalStake/totalSupply, ConstantsManager.baseRewardPerSecond @block 80162743",
+  "retrieved": "2026-11-10",
+  "notes": "r = baseRewardPerSecond*yr/totalStake (base reward only, excludes validators' fee share; uptime-weighted in practice)"
+ },
+ {
+  "chain": "sonic",
+  "date": "2026-11-10",
+  "theta": 0.2550348746949157,
+  "theta_denominator": "total supply (SFC.totalSupply)",
+  "r": 0.05846456686414657,
+  "E": 0.01491050348429014,
+  "fee_share": null,
+  "source": "https://rpc.soniclabs.com eth_call SFC 0xFC00FACE00000000000000000000000000000000 totalStake/totalSupply, ConstantsManager.baseRewardPerSecond @block 82357225",
+  "retrieved": "2026-11-10",
+  "notes": "r = baseRewardPerSecond*yr/totalStake (base reward only, excludes validators' fee share; uptime-weighted in practice)"
+ }
+]

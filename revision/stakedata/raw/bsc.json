@@ -1,0 +1,14 @@
+[
+ {
+  "chain": "bsc",
+  "date": "2026-11-10",
+  "theta": 0.1836612282060667,
+  "theta_denominator": "circulating supply (CoinGecko /coins/binancecoin)",
+  "r": null,
+  "E": 0.0,
+  "fee_share": 1.0,
+  "source": "https://bsc-dataseed.bnbchain.org eth_call StakeHub 0x0000000000000000000000000000000000002002 getValidators + credit totalPooledBNB (56 validators); supply https://api.coingecko.com/api/v3/coins/binancecoin",
+  "retrieved": "2026-11-10",
+  "notes": "theta vs total supply=0.1837; no inflation: rewards are gas fees (E=0, fee_share=1); r not available (no free archive state for share-price growth)"
+ }
+]

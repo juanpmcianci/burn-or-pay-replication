@@ -1,0 +1,33 @@
+low-reward r=6.7% rf=0.06 k=0.0: V_U=  -6.06  V_F=  -1.73
+low-reward r=6.7% rf=0.06 k=0.05: V_U=  -2.62  V_F=  -1.27
+low-reward r=6.7% rf=0.06 k=0.1: V_U=  -0.47  V_F=  -1.11
+low-reward r=6.7% rf=0.06 k=0.15: -- Gordon denominator non-positive: min -0.0196
+low-reward r=6.7% rf=0.06 k=0.2: -- Gordon denominator non-positive: min -0.0425
+low-reward r=6.7% rf=0.06 k=0.25: -- Gordon denominator non-positive: min -0.0655
+low-reward r=6.7% rf=0.06 k=0.3: -- Gordon denominator non-positive: min -0.0884
+low-reward r=6.7% rf=0.1 k=0.0: V_U=  -4.19  V_F=  -1.66
+low-reward r=6.7% rf=0.1 k=0.05: V_U=  -2.24  V_F=  -1.21
+low-reward r=6.7% rf=0.1 k=0.1: V_U=  -0.78  V_F=  -0.78
+low-reward r=6.7% rf=0.1 k=0.15: V_U=   0.29  V_F=  -0.38
+low-reward r=6.7% rf=0.1 k=0.2: -- Gordon denominator non-positive: min -0.0025
+low-reward r=6.7% rf=0.1 k=0.25: -- Gordon denominator non-positive: min -0.0255
+low-reward r=6.7% rf=0.1 k=0.3: -- Gordon denominator non-positive: min -0.0484
+fees Fmax=0.06 s=0.75: V_U=  -8.80  V_F=  -2.81
+fees Fmax=0.12 s=0.3: V_U=  -8.84  V_F=  -2.89
+fees Fmax=0.12 s=2.0: V_U=  -8.89  V_F=  -4.13
+fees Fmax=0.2 s=0.75: V_U=  -8.84  V_F=  -3.03
+bounded K=0.03 psi=1.1 rf=0.06 k=0.3: V_U=  -4.33  V_F=  -2.54
+bounded K=0.03 psi=1.1 rf=0.06 k=0.6: V_U=  -4.60  V_F=  -2.45
+bounded K=0.03 psi=1.1 rf=0.06 k=1.0: V_U=  -4.59  V_F=  -2.38
+bounded K=0.03 psi=1.1 rf=0.06 k=2.0: V_U=  -4.55  V_F=  -2.32
+bounded K=0.08 psi=1.1 rf=0.1 k=0.3: V_U=  -0.90  V_F=  -1.44
+bounded K=0.08 psi=1.1 rf=0.1 k=0.6: V_U=  -0.62  V_F=  -1.24
+bounded K=0.08 psi=1.1 rf=0.1 k=1.0: V_U=  -0.65  V_F=  -1.13
+bounded K=0.08 psi=1.1 rf=0.1 k=2.0: V_U=  -0.64  V_F=  -0.98
+psi=11.2 rf=0.15 k=0.0: V_U=  -9.16  V_F=  -9.55
+psi=11.2 rf=0.15 k=0.1: V_U=  -6.45  V_F=  -8.74
+psi=11.2 rf=0.15 k=0.2: V_U=  -3.94  V_F=  -7.99
+psi=11.2 rf=0.15 k=0.3: V_U=  -1.65  V_F=  -7.30
+psi=11.2 rf=0.15 k=0.4: V_U=   0.44  V_F=  -6.67
+psi=11.2 rf=0.15 k=0.5: V_U=   2.33  V_F=  -6.09
+psi=11.2 rf=0.15 k=0.6: V_U=   4.01  V_F=  -5.51

@@ -1,0 +1,26 @@
+Check v6: rescue attempts for (psi, r_f) = (2.34, 0.10), omega0 = 0.9, E = 0.057 (failed on [-12,7], 1087 nodes).
+Reports end-point D and R, then tries solve_c2 baseline and the hurdles on smaller domains / initial-guess scalings.
+z0=0.82396
+z=-12.000 F=0.1200 Theta=0.4695 R=0.01218 D=R-mu0=-0.00782
+z= -9.000 F=0.1200 Theta=0.4695 R=0.01218 D=R-mu0=-0.00782
+z= -7.000 F=0.1200 Theta=0.4694 R=0.01219 D=R-mu0=-0.00781
+z= -5.000 F=0.1198 Theta=0.4694 R=0.01232 D=R-mu0=-0.00768
+z= -3.000 F=0.1178 Theta=0.4690 R=0.01424 D=R-mu0=-0.00576
+z=  0.000 F=0.0600 Theta=0.4568 R=0.06954 D=R-mu0=0.04954
+z=  0.824 F=0.0300 Theta=0.4500 R=0.09822 D=R-mu0=0.07822
+z=  7.000 F=0.0000 Theta=0.4429 R=0.12689 D=R-mu0=0.10689
+x_lo=-12 n=1087 guess=1.0: FAIL The maximum number of mesh nodes is exceeded.
+x_lo=-12 n=1087 guess=0.5: FAIL The maximum number of mesh nodes is exceeded.
+x_lo=-12 n=1087 guess=2.0: FAIL The maximum number of mesh nodes is exceeded.
+x_lo=-9 n=915 guess=1.0: FAIL The maximum number of mesh nodes is exceeded.
+x_lo=-9 n=915 guess=0.5: FAIL The maximum number of mesh nodes is exceeded.
+x_lo=-9 n=915 guess=2.0: FAIL The maximum number of mesh nodes is exceeded.
+x_lo=-7 n=801 guess=1.0: FAIL The maximum number of mesh nodes is exceeded.
+x_lo=-7 n=801 guess=0.5: FAIL The maximum number of mesh nodes is exceeded.
+x_lo=-7 n=801 guess=2.0: FAIL The maximum number of mesh nodes is exceeded.
+x_lo=-5 n=687 guess=1.0: FAIL The maximum number of mesh nodes is exceeded.
+x_lo=-5 n=687 guess=0.5: FAIL The maximum number of mesh nodes is exceeded.
+x_lo=-5 n=687 guess=2.0: FAIL The maximum number of mesh nodes is exceeded.
+x_lo=-12 n=2173 guess=1.0: FAIL The maximum number of mesh nodes is exceeded.
+x_lo=-12 n=2173 guess=0.5: FAIL The maximum number of mesh nodes is exceeded.
+x_lo=-12 n=2173 guess=2.0: FAIL The maximum number of mesh nodes is exceeded.

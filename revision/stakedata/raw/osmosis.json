@@ -1,0 +1,14 @@
+[
+ {
+  "chain": "osmosis",
+  "date": "2026-11-10",
+  "theta": 0.19454061833546576,
+  "theta_denominator": "total supply (bank supply uosmo)",
+  "r": null,
+  "E": 0.0,
+  "fee_share": 1.0,
+  "source": "https://osmosis-rest.publicnode.com/osmosis/mint/v1beta1/epoch_provisions,params; /cosmos/staking/v1beta1/pool",
+  "retrieved": "2026-11-10",
+  "notes": "staking proportion=0.0, community_tax=0.0; taker-fee revenue to stakers (non-OSMO) not included; with staking proportion 0 all staker income is fee-funded (taker fees), amount not measured so r left blank"
+ }
+]

@@ -1,0 +1,8 @@
+event,window,token,window_date,first_window_date,dose_low,dose_high,dpi
+osmo-903,forum posting,OSMO,2025-02-05,2025-02-05,-0.0022,-0.0158,0.5
+osmo-903,vote end,OSMO,2025-02-15,2025-02-05,-0.0022,-0.0158,0.3
+dydx-313,forum proposal,DYDX,2025-10-28,2025-10-28,-0.015,-0.017,0.5
+dydx-313,#304 vote end,DYDX,2025-11-07,2025-10-28,-0.015,-0.017,0.3
+dydx-313,#313 vote end,DYDX,2025-11-13,2025-10-28,-0.015,-0.017,0.1
+simd-0096,PR posting,SOL,2023-12-19,2023-12-19,0.0004,0.0007,0.5
+simd-0096,vote end,SOL,2024-05-27,2023-12-19,0.0026,0.0036,0.3

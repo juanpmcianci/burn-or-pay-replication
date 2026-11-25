@@ -1,0 +1,23 @@
+primary events 50; with a dose 45; NA excluded 5
+primary 50 24h (capture 1.0): MDE_kappa = 0.105  n=45  -> GO
+primary 50 4h (capture 0.554): MDE_kappa = 0.077  n=45  -> GO
+all 66     24h (capture 1.0): MDE_kappa = 0.065  n=60  -> GO
+all 66     4h (capture 0.554): MDE_kappa = 0.048  n=60  -> GO
+
+share of pooled information, primary 24h (top 8):
+       event         kind  V_primary  dpi   sd_h  share
+      35-GMX    recurring     0.4131  1.0 0.0067 0.2211
+23-Sky/Maker    recurring     0.6237  0.5 0.0060 0.1585
+      34-GMX        pause    -0.5492  0.5 0.0054 0.1494
+ 48-Pump.fun        mixed    -0.2502  1.0 0.0051 0.1419
+ 59-Starknet emission_cut    -0.6538  0.5 0.0083 0.0895
+  14-Jupiter        mixed     0.4815  0.5 0.0062 0.0892
+ 57-Celestia emission_cut     0.3505  0.5 0.0058 0.0529
+  16-Jupiter emission_cut     0.3285  0.5 0.0084 0.0224
+
+sensitivities, primary 24h:
+  face value / treasury counted    MDE_kappa = 0.065
+  doses -50%                       MDE_kappa = 0.209
+  doses +50%                       MDE_kappa = 0.070
+  news shares halved               MDE_kappa = 0.209
+  leave-one-out range            0.105 to 0.119

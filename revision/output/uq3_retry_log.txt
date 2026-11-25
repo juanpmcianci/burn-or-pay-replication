@@ -1,0 +1,1 @@
+{('Q75', 'ok'): 77, ('Q75', 'error: The maximum number of mesh nodes is exceeded.'): 13, ('Q75', 'error: The solver was unable to satisfy boundary conditio'): 1, ('QD', 'ok'): 165, ('QD', 'error: The maximum number of mesh nodes is exceeded.'): 11, ('QD', 'error: The solver was unable to satisfy boundary conditio'): 9}

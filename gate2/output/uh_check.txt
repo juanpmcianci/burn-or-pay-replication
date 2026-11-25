@@ -1,0 +1,16 @@
+psi=1.1 r_f=0.06 lam=0.5 u_h/u_s=0.0: Theta=0.450 G_M=-58.8 G_s=-43.6 G_h=-46.3 G_tot=-89.9
+psi=1.1 r_f=0.06 lam=0.5 u_h/u_s=0.05: Theta=0.451 G_M=-58.8 G_s=-42.8 G_h=-47.1 G_tot=-89.9
+psi=1.1 r_f=0.06 lam=0.5 u_h/u_s=0.2: Theta=0.455 G_M=-58.9 G_s=-40.6 G_h=-49.5 G_tot=-90.1
+psi=1.1 r_f=0.06 lam=0.5 u_h/u_s=0.5: Theta=0.463 G_M=-59.2 G_s=-37.3 G_h=-53.3 G_tot=-90.6
+psi=1.1 r_f=0.06 lam=0.75 u_h/u_s=0.0: Theta=0.450 G_M=-58.7 G_s=-66.6 G_h=-23.1 G_tot=-89.7
+psi=1.1 r_f=0.06 lam=0.75 u_h/u_s=0.05: Theta=0.450 G_M=-58.7 G_s=-66.3 G_h=-23.4 G_tot=-89.7
+psi=1.1 r_f=0.06 lam=0.75 u_h/u_s=0.2: Theta=0.452 G_M=-58.7 G_s=-65.5 G_h=-24.3 G_tot=-89.8
+psi=1.1 r_f=0.06 lam=0.75 u_h/u_s=0.5: Theta=0.455 G_M=-58.8 G_s=-63.9 G_h=-26.1 G_tot=-90.0
+psi=2.0 r_f=0.1 lam=0.5 u_h/u_s=0.0: Theta=0.450 G_M=-31.6 G_s=-18.8 G_h=-24.0 G_tot=-42.8
+psi=2.0 r_f=0.1 lam=0.5 u_h/u_s=0.05: Theta=0.451 G_M=-31.5 G_s=-17.8 G_h=-24.8 G_tot=-42.6
+psi=2.0 r_f=0.1 lam=0.5 u_h/u_s=0.2: Theta=0.454 G_M=-30.7 G_s=-14.2 G_h=-27.2 G_tot=-41.4
+psi=2.0 r_f=0.1 lam=0.5 u_h/u_s=0.5: Theta=0.480 G_M=-28.0 G_s=-7.0 G_h=-30.6 G_tot=-37.6
+psi=2.0 r_f=0.1 lam=0.75 u_h/u_s=0.0: Theta=0.450 G_M=-28.6 G_s=-27.4 G_h=-11.1 G_tot=-38.5
+psi=2.0 r_f=0.1 lam=0.75 u_h/u_s=0.05: Theta=0.450 G_M=-28.5 G_s=-26.8 G_h=-11.5 G_tot=-38.3
+psi=2.0 r_f=0.1 lam=0.75 u_h/u_s=0.2: Theta=0.452 G_M=-28.1 G_s=-25.1 G_h=-12.7 G_tot=-37.8
+psi=2.0 r_f=0.1 lam=0.75 u_h/u_s=0.5: Theta=0.460 G_M=-27.2 G_s=-21.0 G_h=-15.4 G_tot=-36.4

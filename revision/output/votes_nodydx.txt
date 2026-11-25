@@ -1,0 +1,4 @@
+dose_high all: G -0.3 se 4.7 95% [-9.5, 9.0]
+dose_high no dYdX: G 8.1 se 7.9 95% [-7.3, 23.5]
+dose_low all: G -4.1 se 6.6 95% [-17.0, 8.8]
+dose_low no dYdX: G 69.4 se 47.2 95% [-23.1, 161.8]

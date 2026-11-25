@@ -1,0 +1,11 @@
+beta=1.1 r_f=0.1: kappa_max=0.216  G2 at kappa_max = -6191.25 < 0: payout never wins while price exists
+beta=1.1 r_f=0.15: kappa_max=0.327 kappa*=0.319 closed-form=0.240 (r=0.133, M=18.7)
+beta=1.5 r_f=0.1: kappa_max=0.254  G2 at kappa_max = -8792.39 < 0: payout never wins while price exists
+beta=1.5 r_f=0.15: kappa_max=0.458 kappa*=0.311 closed-form=0.256 (r=0.133, M=20.4)
+beta=2.0 r_f=0.1: kappa_max=0.238  G2 at kappa_max = -12765.19 < 0: payout never wins while price exists
+beta=2.0 r_f=0.15: kappa_max=0.550 kappa*=0.310 closed-form=0.266 (r=0.133, M=22.0)
+domain -7 7 G2(x=0)= -26.456
+domain -9 9 G2(x=0)= -26.433
+domain -5 5 G2(x=0)= -27.604
+
+[exited with code 0]
